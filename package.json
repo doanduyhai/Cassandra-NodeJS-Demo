@@ -1,0 +1,9 @@
+{
+    "name" : "nodejs_driver_demo",
+    "version" : "0.0.1",
+    "dependencies": {
+        "cassandra-driver": "datastax/nodejs-driver",
+        "csv-parse": "latest",
+        "stream-transform": "latest"
+    }
+}
