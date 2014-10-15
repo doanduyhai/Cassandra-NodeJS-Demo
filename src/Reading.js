@@ -4,7 +4,7 @@ var client = new cassandra.Client({contactPoints: ['localhost']});
 
 var select = "SELECT * FROM nodejs_demo.us_unemployment";
 
-var stream = client.stream(select,[], {autoPage:true}, displayError);
+var stream = client.stream(select,[], {autoPage:true, fetchSize:5}, displayError);
 
 
 stream
