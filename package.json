@@ -4,6 +4,7 @@
     "dependencies": {
         "cassandra-driver": "datastax/nodejs-driver",
         "csv-parse": "latest",
-        "stream-transform": "latest"
+        "stream-transform": "latest",
+        "async": "latest"
     }
 }
